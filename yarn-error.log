@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/amirhosseinsafari/.nvm/versions/node/v18.15.0/bin/node /Users/amirhosseinsafari/.nvm/versions/node/v18.15.0/bin/yarn install
+
+PATH: 
+  /Users/amirhosseinsafari/.nvm/versions/node/v18.15.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.27.34:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@ant-design/icons": "^4.5.0",
+      "@stripe/stripe-js": "^1.13.2",
+      "antd": "^4.13.1",
+      "axios": "^0.21.1",
+      "bootstrap": "^4.6.0",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.1",
+      "http-proxy-middleware": "^1.0.6",
+      "next": "^10.0.8",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-image-file-resizer": "^0.4.2",
+      "react-markdown": "^5.0.3",
+      "react-player": "^2.9.0",
+      "react-toastify": "^7.0.3",
+      "tailwindcss": "^1.9.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
